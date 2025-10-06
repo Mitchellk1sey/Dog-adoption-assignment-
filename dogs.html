@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Humane Socity dogs</title>
+    
+</head>
+<body>
+    <h1>Humane socity of hamitlon county</h1>
+
+    <p>Enter the minimum age for a dog to see adoptable dogs older than that age: </p>
+    
+    <p>
+        <label for ="minAge">Minimum Age: </label>
+        <input type = "text" id = "minAge" name="minAge" maxlength="2" size="2">
+        <button onclick="findOlderDogs()">Find Older Dogs</button>
+    </p>
+
+    <p>Or, let luck decide, click to see a random dog: </p>
+    <p>
+        <button onclick="randomDog()">Random dog</button>
+    </p>
+
+    <h2>Results: </h2>
+
+    <pre class = "dogList" style = "white-space: pre-wrap;"></pre>
+
+    <script src = "dogs.js"></script>
+</body>
+</html>
